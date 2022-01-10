@@ -58,7 +58,7 @@
       {
         "jobPosition": "Frontend developer",
         "from": "Jun 2020",
-        "to": "Nå",
+        "to": "Now",
         "company": "Spond AS",
         "companyCity": "Oslo, Norway",
         "description": "Developing webapp using React with TypeScript og Redux."
@@ -86,19 +86,19 @@
   },
   "projects": {
     "title": "Projects",
-    "description": "Et parr hobby prosjekter under utvikling. Alle prosjektene er tilgjengelig på GitHub.",
+    "description": "Some hobby projects under development. All projects are available at GitHub.",
     "content": [
       {
         "title": "Personal portifolio",
-        "description": "En portofolio nettside utviklet i react"
+        "description": "Portofolio page developed with Next.js."
       },
       {
-        "title": "React basert CV",
-        "description": "Denne CV-en er bygget med react."
+        "title": "React based CV",
+        "description": "This CV is buildt with React and TypeScript."
       },
       {
         "title": "AtBetter - Android",
-        "description": "Android app skrevet i Kotlin som for å se busstider i sanntid."
+        "description": "Android app written in Kotlin to check bus arrival times in real time."
       }
     ]
   }

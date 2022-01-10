@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+  border-radius: var(--radius-1);
+  box-shadow: var(--shadow-1);
+
+  --glass-effect-color: #0000000f;
+  --glass-effect: linear-gradient(
+    var(--glass-effect-color) 0%,
+    var(--glass-effect-color) 100%
+  );
+}
+
+.title {
+  font-weight: bold;
+}
+
+.gradient-1 {
+  background-color: #4158d0;
+  background: var(--glass-effect),
+    linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  color: var(--text-secondary);
+}
+.gradient-2 {
+  background-color: #0093e9;
+  background: var(--glass-effect),
+    linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  color: var(--text-secondary);
+}
+.gradient-3 {
+  background-color: #21d4fd;
+  background: var(--glass-effect),
+    linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+
+  color: var(--text-secondary);
+}

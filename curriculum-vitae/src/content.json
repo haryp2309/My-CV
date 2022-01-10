@@ -1,0 +1,105 @@
+{
+  "contactInfo": {
+    "title": "Contact Information",
+    "content": [
+      {
+        "title": "Address:",
+        "content": "Dummy street 2, Dummy York",
+        "link": null
+      },
+      {
+        "title": "Phone:",
+        "content": "+47 XXXXXXXX",
+        "link": "tel:0047xxxxxxxx"
+      },
+      {
+        "title": "E-mail:",
+        "content": "hary2309@gmail.com",
+        "link": "mailto:hary2309@gmail.com"
+      },
+      {
+        "title": "LinkedIn:",
+        "content": "linkedin.com/in/haryp",
+        "link": "https://no.linkedin.com/in/haryp"
+      },
+      {
+        "title": "GitHub Profile:",
+        "content": "github.com/haryp2309",
+        "link": "https://github.com/haryp2309"
+      },
+      {
+        "title": "Personal Portofolio:",
+        "content": "haryp2309.vercel.app",
+        "link": "https://haryp2309.vercel.app"
+      }
+    ]
+  },
+  "techologies": {
+    "title": "Technologies",
+    "content": [
+      { "title": "Java" },
+      { "title": "Python" },
+      { "title": "HTML" },
+      { "title": "CSS" },
+      { "title": "JavaScript" },
+      { "title": "TypeScript" },
+      { "title": "React" },
+      { "title": "Google Cloud Platform" },
+      { "title": "Figma" }
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "content": "Young student who wants to be hired. Hire me!!!"
+  },
+  "experience": {
+    "title": "Experience",
+    "content": [
+      {
+        "jobPosition": "Frontend developer",
+        "from": "Jun 2020",
+        "to": "Nå",
+        "company": "Spond AS",
+        "companyCity": "Oslo, Norway",
+        "description": "Developing webapp using React with TypeScript og Redux."
+      },
+      {
+        "jobPosition": "Student assistent",
+        "from": "Jun 2021",
+        "to": "Des 2021",
+        "company": "NTNU",
+        "companyCity": "Trondheim, Norway",
+        "description": "Technical assistent for studenes at the subject IT1901 Informatikk prosjektarbeid I."
+      }
+    ]
+  },
+  "studies": {
+    "title": "Study",
+    "content": [
+      {
+        "title": "Masters in Datateknologi",
+        "school": "NTNU",
+        "location": "Trondheim",
+        "fromTo": "2019-2024"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Et parr hobby prosjekter under utvikling. Alle prosjektene er tilgjengelig på GitHub.",
+    "content": [
+      {
+        "title": "Personal portifolio",
+        "description": "En portofolio nettside utviklet i react"
+      },
+      {
+        "title": "React basert CV",
+        "description": "Denne CV-en er bygget med react."
+      },
+      {
+        "title": "AtBetter - Android",
+        "description": "Android app skrevet i Kotlin som for å se busstider i sanntid."
+      }
+    ]
+  }
+}

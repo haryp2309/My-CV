@@ -1,0 +1,20 @@
+.divider {
+  width: 300px;
+  height: 3px;
+  background-color: var(--light-grey);
+  position: relative;
+  margin: 10px 0px 20px 0px;
+}
+
+.divider::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+
+  width: 50px;
+  height: 3px;
+  background-color: var(--primary-default);
+}

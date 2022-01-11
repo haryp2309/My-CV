@@ -1,5 +1,5 @@
 .divider {
-  width: 300px;
+  width: 250px;
   height: 3px;
   background-color: var(--light-grey);
   position: relative;
@@ -8,7 +8,6 @@
 
 .divider::after {
   content: "";
-
   position: absolute;
   left: 0;
   bottom: 0;

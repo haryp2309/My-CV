@@ -1,16 +1,11 @@
-import { useState } from "react";
 import styles from "./App.module.css";
 import { content } from "./content";
 import { ProjectCard } from "./ProjectCard";
 import { Section } from "./Section";
 
 export const App = () => {
-  const [printFriendly, setPrintFriendly] = useState(false);
   return (
-    <div
-      className={`${styles.page} ${printFriendly ? "" : styles.preview}`}
-      onClick={() => setPrintFriendly((v) => !v)}
-    >
+    <div className={`${styles.page} page`}>
       <div className={styles.left + " " + styles.column}>
         <div className={styles.pb} />
         <Section title={content.contactInfo.title}>

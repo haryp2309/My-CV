@@ -1,7 +1,6 @@
 :root {
   /* Font properties */
   font-family: "Bebas Neue", cursive;
-  font-size: 20px;
 
   /* Color definitions */
   --primary-default: #06a6e0;
@@ -25,11 +24,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  display: flex;
-  justify-content: center;
-  background-color: rgb(176, 72, 72);
-  color: var(--text-primary);
 
   line-height: 1.5em;
 }

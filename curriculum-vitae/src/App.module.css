@@ -106,3 +106,7 @@
 .faded {
   opacity: 0.75;
 }
+
+.summary-content {
+  margin-bottom: 0;
+}

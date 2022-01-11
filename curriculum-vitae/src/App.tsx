@@ -31,7 +31,7 @@ export const App = () => {
       </div>
       <div className={styles.right + " " + styles.column}>
         <Section title={content.summary.title}>
-          <p>{content.summary.content}</p>
+          <p className={styles["summary-content"]}>{content.summary.content}</p>
         </Section>
         <Section title={content.studies.title}>
           {content.studies.content.map(

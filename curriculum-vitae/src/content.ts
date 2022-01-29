@@ -1,4 +1,16 @@
 import jsonContent from "./content.json";
+
+export type ApplicationLetter = {
+  title: string;
+  content: string;
+  sender: {
+    name: string;
+    school: string;
+    study: string;
+    studyYear: string;
+  };
+};
+
 type Content = {
   contactInfo: {
     title: string;
@@ -44,6 +56,7 @@ type Content = {
       description: string;
     }[];
   };
+  letter?: ApplicationLetter;
 };
 
 export const content: Content = jsonContent;

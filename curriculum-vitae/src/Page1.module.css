@@ -3,13 +3,6 @@
   display: flex;
 }
 
-.page.preview {
-  width: 1000px;
-  height: 1414.2px;
-  margin: 50px;
-  box-shadow: 0px 0px 50px 2px #00000035;
-}
-
 .column.right {
   flex-grow: 1;
   padding-right: 0;
@@ -17,10 +10,8 @@
 }
 
 .column.left {
-  background-color: var(--light-grey);
+  background-color: var(--light-grey-1);
   width: 40%;
-  border-radius: var(--radius-1);
-  box-shadow: var(--shadow-1);
 }
 
 .column {

@@ -5,8 +5,10 @@
   /* Color definitions */
   --primary-default: #06a6e0;
   --primary-light: #93cce1;
-  --light-grey: #cdcad3;
-  --dark-grey: #292b30;
+  --light-grey-1: #cdcad3;
+  --light-grey-2: #e6e6e6;
+  --dark-grey-1: #292b30;
+  --dark-grey-2: #373739;
 
   --text-primary: var(--dark-grey);
   --text-secondary: #fff;
@@ -14,6 +16,17 @@
   --shadow-1: 0px 10px 15px -3px rgb(0 0 0 / 15%);
 
   --radius-1: 10px;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  -webkit-filter: opacity(1);
+}
+
+.card {
+  border-radius: var(--radius-1);
+  box-shadow: var(--shadow-1);
+  padding: 32px;
 }
 
 body {

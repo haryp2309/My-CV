@@ -29,7 +29,7 @@ export const Page1 = () => (
       </Section>
       <Section title={content.studies.title}>
         {content.studies.content.map(({ fromTo, location, school, title }) => (
-          <div>
+          <div className={styles["studies-container"]}>
             <div>
               <span className={styles["studies-title"]}>{title}</span>,{" "}
               <span className={styles["studies-from-to"]}>{fromTo}</span>

@@ -32,11 +32,8 @@
 }
 
 .technology {
-  background: linear-gradient(
-    45deg,
-    var(--primary-light) 200%,
-    var(--primary-default) 0%
-  );
+  background: linear-gradient(160deg, #0093e9da 0%, #3f64c2da 100%);
+  color: white;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 5px 15px;
@@ -71,6 +68,9 @@
 }
 .studies-school {
   font-weight: bold;
+}
+.studies-container {
+  margin: 10px 0;
 }
 .pb {
   background-color: var(--primary-light);
